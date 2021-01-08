@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Checkout</title>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/plugins.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body class="">
+	<div class="site-wrapper">
+
+<!--header-->
+  <header class="header petmark-header-1">
+    <div class="header-wrapper">
+      <!-- Site Wrapper Starts -->
+             <div class="header-top">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-4 text-center text-md-left">
+              <p class="font-weight-300">Welcome to Mobile Zone</p>
+            </div>
+            <div class="col-md-8">
+              <div class="header-top-nav white-color right-nav ">
+                <div class="nav-item">
+                  <a class="" href="login-register.html" role="button">Register or Sign in</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-middle">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <!-- Template Logo -->
+            <div class="col-lg-3 col-md-12 col-sm-4">
+              <div class="site-brand  text-center text-lg-left">
+                <a href="index.html" class="brand-image">
+                  <h3>WAEL STORE</h3>
+                </a>
+              </div>
+            </div>
+            <!-- Category With Search -->
+            <div class="col-lg-5 col-md-7 order-3 order-md-2">
+              <form class="category-widget">
+                <input type="text" name="search" placeholder="Search products ">
+                <div class="search-form__group search-form__group--select">
+                  <select name="category " id="searchCategory" class="search-form__select nice-select">
+                    <option value="all">All Categories</option>           
+                    <option value="3">Iphone</option>
+                    <option value="3">Huawei</option>
+                    <option value="3">Samsung</option>
+                  </select>
+                </div>
+                <button class="search-submit"><i class="fas fa-search"></i></button>
+              </form>
+            </div>
+            <!-- Call Login & Track of Order -->
+            <div class="col-lg-4 col-md-5 col-sm-8 order-2 order-md-3">
+              <div class="header-widget-2 text-center text-sm-right ">
+                <div class="call-widget">
+                  <p>CALL US NOW: <i class="icon ion-ios-telephone"></i><span class="font-weight-mid">1234567890</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-nav-wrapper">
+      <div class="container">
+        <div class="header-bottom-inner">
+          <div class="row no-gutters">          
+            <!-- Main Menu -->
+            <div class="col-lg-7 d-none d-lg-block">
+              <nav class="main-navigation">
+                <!-- Mainmenu Start -->
+                <ul class="mainmenu">
+  <li class="mainmenu__item">
+    <a href="index.html">Home</a>
+  </li>
+    <li class="mainmenu__item">
+    <a href="about.html">About</a>
+  </li>
+   <li class="mainmenu__item">
+    <a href="shop.html">Shop</a>
+  </li>
+<li class="mainmenu__item menu-item-has-children">
+    <a href="category.html" class="mainmenu__link">Category</a>
+    <ul class="sub-menu">
+      <li class="menu-item-has-children">
+        <a href="iphone-category.html">Iphone</a>
+      </li>
+  <li class="menu-item-has-children">
+    <a href="Huawei-category.html">Huawei</a>
+  </li>
+  <li class="menu-item-has-children">
+    <a href="Samsung-category.html">Samsung</a>
+  </li>
+</ul>
+</li>
+ 
+</ul>
+
+                <!-- Mainmenu End -->
+              </nav>
+            </div>
+            <!-- Cart block-->
+            <div class="col-lg-5 col-6 offset-6 offset-md-0 col-md-5 order-3">
+              <div class="cart-widget-wrapper slide-down-wrapper">
+                <div class="cart-widget slide-down--btn">
+                  <div class="cart-icon">
+                    <i class="ion-bag"></i>
+                    <span class="cart-count-badge">
+                      1
+                    </span>
+                  </div>
+                  <div class="cart-text">
+                    <span class="d-block"><a href="cart.html">Your cart</a></span>
+                    <strong><span class="amount"><span class="currencySymbol">$</span>40.00</span></strong>
+                  </div>
+                </div>
+                <div class="slide-down--item ">
+                  <div class="cart-widget-box">
+    <ul class="cart-items">
+        <li class="single-cart">
+            <a href="#" class="cart-product">
+                <div class="cart-product-img">
+                    <img src="images/pectra -flea.jpg" alt="Selected Products">
+                </div>
+                <div class="product-details">
+                    <h4 class="product-details--title">Nexgard Spectra Flea Tick & Worm Chewable Treatment 7.6-15kg - 3</h4>
+                    <span class="product-details--price">$65.00</span> 
+                </div>
+                <span class="cart-cross">x</span>
+            </a>
+        </li>
+        <li class="single-cart">
+            <div class="cart-product__subtotal">
+                <span class="subtotal--title">Subtotal</span>
+                <span class="subtotal--price">$65.00</span>
+            </div>
+        </li>
+        <li class="single-cart">
+            <div class="cart-buttons">
+                <a href="cart.html" class="btn btn-outlined">View Cart</a>
+                <a href="checkout.html" class="btn btn-outlined">Check Out</a>
+            </div>
+        </li>
+    </ul>
+
+</div>
+                </div>
+              </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="col-12 d-flex d-lg-none order-2 mobile-absolute-menu">
+              <!-- Main Mobile Menu Start -->
+              <div class="mobile-menu"></div>
+              <!-- Main Mobile Menu End -->
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+
+        </div>
+      </div>
+      <div class="fixed-header sticky-init">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-3">
+                <!-- Sticky Logo Start -->
+                <a class="sticky-logo" href="index.html">
+                    <h3>WAEL STORE</h3>
+                </a>
+                <!-- Sticky Logo End -->
+            </div>
+            <div class="col-lg-9">
+                <!-- Sticky Mainmenu Start -->
+                <nav class="sticky-navigation">
+                    <ul class="mainmenu sticky-menu">
+  <li class="mainmenu__item ">
+    <a href="index.html">Home</a>
+  </li>
+  <li class="mainmenu__item">
+    <a href="about.html">About</a>
+  </li>
+<li class="mainmenu__item">
+    <a href="shop.html">Shop</a>
+  </li>
+  <li class="mainmenu__item menu-item-has-children">
+    <a href="#" class="mainmenu__link">Category</a>
+    <ul class="sub-menu">
+      <li class="menu-item-has-children">
+        <a href="iphone-category.html">Iphone</a>
+      </li>
+  <li class="menu-item-has-children">
+    <a href="Huawei-category.html">huawei</a>
+  </li>
+  <li class="menu-item-has-children">
+    <a href="Samsung-category.html">Samsung</a>
+  </li>
+</ul>
+</li>
+<li class="mainmenu__item">
+    <a href="contact.html">Contact Us</a>
+  </li>
+</ul>
+                    <div class="sticky-mobile-menu  d-lg-none">
+                        <span class="sticky-menu-btn"></span>
+                    </div>
+                </nav>
+                <!-- Sticky Mainmenu End -->
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+  </header>
+<!--header Close-->
+<!---checkout main section-->
+<main id="content" class="page-section sp-inner-page checkout-area-padding space-db--20">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+
+				<!-- Checkout Form s-->
+				<div class="checkout-form">
+					<div class="row row-40">
+						<div class="col-12">
+							<h1 class="quick-title">CHECKOUT</h1>
+							<!-- Slide Down Trigger  -->
+							<div class="checkout-quick-box">
+								<p><i class="far fa-sticky-note"></i>Returning customer? <a href="javascript:" class="slide-trigger" data-target="#quick-login">Click
+										here to login</a></p>
+							</div>
+							<!-- Slide Down Blox ==> Login Box  -->
+							<div class="checkout-slidedown-box" id="quick-login">
+								<form action="./">
+									<div class="quick-login-form">
+										<p>If you have shopped with us before, please enter your details in the boxes below. If you are a new
+											customer
+											please
+											proceed to the Billing & Shipping section.</p>
+										<div class="form-group">
+											<label for="quick-user">Username or email *</label>
+											<input type="text" placeholder="">
+										</div>
+										<div class="form-group">
+											<label for="quick-user">Password *</label>
+											<input type="text" placeholder="">
+										</div>
+										<div class="form-group">
+											<div class="d-flex align-items-center">
+												<a href="#" class="btn btn-black">Login</a>
+												<div class="d-inline-flex align-items-center  ml-3">
+													<input type="checkbox" id="accept_terms" class="mb-0 mr-1">
+													<label for="accept_terms" class="mb-0">I’ve read and accept the terms &amp; conditions</label>
+												</div>
+											</div>
+											<p><a href="javascript:" class="pass-lost mt-3">Lost your password?</a></p>
+										</div>
+									</div>
+								</form>
+
+							</div>
+
+							<!-- Slide Down Trigger  -->
+							<div class="checkout-quick-box">
+								<p><i class="far fa-sticky-note"></i>Have a coupon? <a href="javascript:" class="slide-trigger" data-target="#quick-cupon">
+										Click here to enter your code</a></p>
+							</div>
+							<!-- Slide Down Blox ==> Cupon Box -->
+							<div class="checkout-slidedown-box" id="quick-cupon">
+								<form action="./">
+									<div class="checkout_coupon">
+											<input type="text" class="mb-0" placeholder="Coupon Code">
+											<a href="" class="btn btn-black">Apply coupon</a>
+									</div>
+								</form>
+							</div>
+
+						</div>
+						<div class="col-lg-7 mb--20">
+							<!-- Billing Address -->
+							<div id="billing-form" class="mb-40">
+								<h4 class="checkout-title">Billing Address</h4>
+
+								<div class="row">
+
+									<div class="col-md-6 col-12 mb--20">
+										<label>First Name*</label>
+										<input type="text" placeholder="First Name">
+									</div>
+
+									<div class="col-md-6 col-12 mb--20">
+										<label>Last Name*</label>
+										<input type="text" placeholder="Last Name">
+									</div>
+									<div class="col-12 mb--20">
+										<label>Company Name</label>
+										<input type="text" placeholder="Company Name">
+									</div>
+									<div class="col-12 col-12 mb--20">
+										<label>Country*</label>
+										<select class="nice-select">
+											<option>Bangladesh</option>
+											<option>China</option>
+											<option>country</option>
+											<option>India</option>
+											<option>Japan</option>
+										</select>
+									</div>
+									<div class="col-md-6 col-12 mb--20">
+										<label>Email Address*</label>
+										<input type="email" placeholder="Email Address">
+									</div>
+									<div class="col-md-6 col-12 mb--20">
+										<label>Phone no*</label>
+										<input type="text" placeholder="Phone number">
+									</div>
+
+
+
+									<div class="col-12 mb--20">
+										<label>Address*</label>
+										<input type="text" placeholder="Address line 1">
+										<input type="text" placeholder="Address line 2">
+									</div>
+
+
+									<div class="col-md-6 col-12 mb--20">
+										<label>Town/City*</label>
+										<input type="text" placeholder="Town/City">
+									</div>
+
+									<div class="col-md-6 col-12 mb--20">
+										<label>State*</label>
+										<input type="text" placeholder="State">
+									</div>
+
+									<div class="col-md-6 col-12 mb--20">
+										<label>Zip Code*</label>
+										<input type="text" placeholder="Zip Code">
+									</div>
+
+									<div class="col-12 mb--20 ">
+										<div class="block-border check-bx-wrapper">
+											<div class="check-box">
+												<input type="checkbox" id="create_account">
+												<label for="create_account">Create an Acount?</label>
+											</div>
+											<div class="check-box">
+												<input type="checkbox" id="shiping_address" data-shipping>
+												<label for="shiping_address">Ship to Different Address</label>
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+
+							<!-- Shipping Address -->
+							<div id="shipping-form" class="mb--40">
+								<h4 class="checkout-title">Shipping Address</h4>
+
+								<div class="row">
+
+									<div class="col-md-6 col-12 mb--20">
+										<label>First Name*</label>
+										<input type="text" placeholder="First Name">
+									</div>
+
+									<div class="col-md-6 col-12 mb--20">
+										<label>Last Name*</label>
+										<input type="text" placeholder="Last Name">
+									</div>
+
+									<div class="col-md-6 col-12 mb--20">
+										<label>Email Address*</label>
+										<input type="email" placeholder="Email Address">
+									</div>
+
+									<div class="col-md-6 col-12 mb--20">
+										<label>Phone no*</label>
+										<input type="text" placeholder="Phone number">
+									</div>
+
+									<div class="col-12 mb--20">
+										<label>Company Name</label>
+										<input type="text" placeholder="Company Name">
+									</div>
+
+									<div class="col-12 mb--20">
+										<label>Address*</label>
+										<input type="text" placeholder="Address line 1">
+										<input type="text" placeholder="Address line 2">
+									</div>
+
+									<div class="col-md-6 col-12 mb--20">
+										<label>Country*</label>
+										<select class="nice-select">
+											<option>Bangladesh</option>
+											<option>China</option>
+											<option>country</option>
+											<option>India</option>
+											<option>Japan</option>
+										</select>
+									</div>
+
+									<div class="col-md-6 col-12 mb--20">
+										<label>Town/City*</label>
+										<input type="text" placeholder="Town/City">
+									</div>
+
+									<div class="col-md-6 col-12 mb--20">
+										<label>State*</label>
+										<input type="text" placeholder="State">
+									</div>
+
+									<div class="col-md-6 col-12 mb--20">
+										<label>Zip Code*</label>
+										<input type="text" placeholder="Zip Code">
+									</div>
+
+								</div>
+
+							</div>
+							<div class="order-note-block mt--30">
+								<label for="order-note">Order notes</label>
+								<textarea id="order-note" cols="30" rows="10" class="order-note" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+							</div>
+						</div>
+
+						<div class="col-lg-5">
+							<div class="row">
+
+								<!-- Cart Total -->
+								<div class="col-12">
+									<div class="checkout-cart-total">
+										<h2 class="checkout-title">YOUR ORDER</h2>
+										<h4>Product <span>Total</span></h4>
+
+										<ul id="checkout-items">
+											<li><span class="left">Apple iPhone XR 64GB Black (Includes EarPods, Power Adapter)</span> <span class="right">$25.00</span></li>
+											<li><span class="left">Apple iPhone 7 (32GB) - Black</span><span class="right">$50.00</span></li>
+											<li><span class="left">Samsung Galaxy M51 (Celestial Black, 8GB RAM, 128GB Storage)</span> <span class="right">$29.00</span></li>
+											<li><span class="left">Samsung Galaxy M31 Prime Edition (Ocean Blue, 6GB RAM, 128GB Storage)</span> <span class="right">$10.00</span></li>
+										</ul>
+
+										<p>Sub Total <span id="checkout-subtotal">$00.00</span></p>
+										<p>Shipping Fee <span id="checkout-shipping">$00.00</span></p>
+
+										<h4>Grand Total <span id="checkout-grandtotal">$104.00</span></h4>
+										<div class="method-notice mt--25">
+											<article>
+												<h3 class="d-none sr-only">blog-article</h3>
+												Sorry, it seems that there are no available payment methods for your state. Please contact us if you
+												require
+												assistance
+												or wish to make alternate arrangements.
+											</article>
+										</div>
+										<div class="term-block">
+											<input type="checkbox" id="accept_terms2">
+											<label for="accept_terms2">I’ve read and accept the terms & conditions</label>
+										</div>
+										<button class="place-order w-100">Place order</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+
+
+
+<!--footer-->
+<footer class="site-footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-4 col-md-6">
+              <div class="single-footer contact-block">
+                  <h3 class="footer-title">About</h3>
+                  <div class="single-footer-content">
+                      <p class="text-italic">Mobile is changing the world. Today, everyone has smartphones with them, constantly communicating and looking for information. In many countries, the number of smartphones has surpassed the number of personal computers; having a mobile-friendly website has become a critical part of having an online presence.</p>                           
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+              <div class="single-footer contact-block">
+                  <h3 class="footer-title">Information</h3>
+                  <div class="single-footer-content">
+                  <ul class="footer-list">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="shop.html">Shop</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+              <div class="single-footer contact-block">
+                  <h3 class="footer-title">Categories</h3>
+                  <div class="single-footer-content">
+                  <ul class="footer-list">
+                      <li><a href="iphone-category.html">Iphone</a></li>
+                      <li><a href="Huawei-category.html">huawei</a></li>
+                      <li><a href="Samsung-category.html">Samsung</a></li>
+                  </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+                <div class="single-footer contact-block">
+                  <h3 class="footer-title">Contact info:</h3>
+                  <div class="single-footer-content">                           
+                      <p>
+                     40 Lorem Ipsum</p>
+                      <p class="social-icons">
+                          <a href=""><i class="fab fa-facebook-f"></i></a>
+                          <a href=""><i class="fab fa-twitter"></i></a>
+                          <a href=""><i class="fab fa-instagram"></i></a>
+                          <a href=""><i class="fab fa-linkedin-in"></i></a>
+                          <a href=""><i class="fas fa-rss"></i></a>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+ <div class="footer-copyright">
+      <p>Training with live project & All rights Reserved.</p>
+  </div>
+</footer>
+
+<!--footer Close-->
+<!--header Close-->
+<!--footer-script-->
+<script src="js/plugins.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/cart.js"></script>
+<!--footer-script-->
+<script>
+  showCheckoutOrderOverview();
+</script>
+</body>
+
+</html>
